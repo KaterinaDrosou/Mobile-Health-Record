@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="doctor_specialties">
+        <item>Αγγειοχειρουργός</item>
+        <item>Ακτινολόγος</item>
+        <item>Αλλεργιολόγος</item>
+        <item>Γαστρεντερολόγος</item>
+        <item>Γενικός ιατρός</item>
+        <item>Γυναικολόγος</item>
+        <item>Δερματολόγος</item>
+        <item>Διαιτολόγος</item>
+        <item>Ενδοκρινολόγος</item>
+        <item>Εργοθεραπευτής</item>
+        <item>Καρδιολόγος</item>
+        <item>Λοιμωξιολόγος</item>
+        <item>Λογοθεραπευτής</item>
+        <item>Μικροβιολόγος</item>
+        <item>Νευρολόγος</item>
+        <item>Νευροχειρουργός</item>
+        <item>Νεφρολόγος</item>
+        <item>Ογκολόγος</item>
+        <item>Οδοντίατρος</item>
+        <item>Ορθοπεδικός</item>
+        <item>Ουρολόγος</item>
+        <item>Οφθαλμίατρος</item>
+        <item>Παθολόγος</item>
+        <item>Παιδοχειρουργός</item>
+        <item>Παιδοψυχίατρος</item>
+        <item>Παιδίατρος</item>
+        <item>Πλαστικός Χειρουργός</item>
+        <item>Πνευμονολόγος</item>
+        <item>Ρευματολόγος</item>
+        <item>Φυσικοθεραπευτής</item>
+        <item>Χειρουργός</item>
+        <item>Ψυχίατρος</item>
+        <item>Ψυχολόγος</item>
+        <item>ΩΡΛ</item>
+    </string-array>
+</resources>

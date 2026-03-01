@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">eHealth</string>
+
+    <string name="select_gender"> Φύλο</string>
+    <string-array name="gender_options">
+        <item>Άντρας</item>
+        <item>Γυναίκα</item>
+    </string-array>
+
+    <string-array name="date_filter_options">
+        <item>Χωρίς φίλτρο</item>
+        <item>Πιο πρόσφατες</item>
+        <item>Πιο παλιές</item>
+    </string-array>
+
+    <string-array name="status_filter_options">
+        <item>Όλοι</item>
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Rejected</item>
+    </string-array>
+
+    <string name="MainActivity_AppName">eHealth</string>
+    <string name="MainActivity_TextCreateAccount">Καλώς ήρθες!</string>
+    <string name="MainActivity_ImPatientbtn_Text">Είμαι Ασθενής</string>
+    <string name="MainActivity_ImPatientbtn_TextImg">Ασθενής</string>
+    <string name="MainActivity_ImPatientbtn_Description">Δες το ιατρικό σου ιστορικό, ραντεβού και γιατρούς.</string>
+    <string name="MainActivity_ImDoctorbtn_TextImg">Ιατρός</string>
+    <string name="MainActivity_ImDoctorbtn_Text">Είμαι Ιατρός</string>
+    <string name="MainActivity_ImDoctorbtn_Description">Διαχείριση ασθενών, ραντεβού και ιατρικών επισκέψεων.</string>
+    <string name="MainActivity_Loginbtn">Έχω ήδη λογαριασμό</string>
+    <string name="MainActivity_Ticketbtn">Υποβολή Αιτήματος</string>
+
+    <string name="PatientRegister_Title">Εγγραφή Χρήστη 📋</string>
+    <string name="PatientRegister_FirstName">Όνομα</string>
+    <string name="PatientRegister_LastName">Επώνυμο</string>
+    <string name="PatientRegister_BirthDate">Ημερομηνία Γέννησης</string>
+    <string name="PatientRegister_AMKA">ΑΜΚΑ</string>
+    <string name="PatientRegister_AFM">ΑΦΜ</string>
+    <string name="PatientRegister_Address">Διεύθυνση (Οδός, Αριθμός, Περιοχή, ΤΚ)</string>
+    <string name="PatientRegister_PhoneNumber">Τηλέφωνο Επικοινωνίας</string>
+    <string name="PatientRegister_Email">Email</string>
+    <string name="PatientRegister_Password">Κωδικός πρόσβασης</string>
+    <string name="PatientRegister_EyeIconVisibility">Εναλλαγή ορατότητας κωδικού</string>
+    <string name="PatientRegister_Registerbtn">Εγγραφή</string>
+    <string name="PatientRegister_ConfirmPassword">Επαλήθευση κωδικού πρόσβασης</string>
+
+    <string name="PasswordMainText">Ο κωδικός πρέπει να είναι 8-20 χαρακτήρες</string>
+    <string name="WeakPassword">Αδύναμος κωδικός ⚠️</string>
+    <string name="MediumPassword">Μέτριος κωδικός 🟡</string>
+    <string name="StrongPassword">Ισχυρός κωδικός 🔒</string>
+
+    <string name="DoctorRegister_Title">Εγγραφή Ιατρού 🩺</string>
+    <string name="DoctorRegister_Name">Ονοματεπώνυμο</string>
+    <string name="DoctorRegister_ClinicHours">Ωράριο Λειτουργίας Ιατρείου</string>
+    <string name="DoctorRegister_Specialty">Ειδικότητα Ιατρού</string>
+    <string name="DoctorRegister_DoctorCode">Κωδικός Ιατρού</string>
+    <string name="DoctorRegister_Address">Διεύθυνση Ιατρείου (Οδός, Αριθμός, Περιοχή, ΤΚ)</string>
+    <string name="DoctorRegister_PhoneNumber">Τηλέφωνο Επικοινωνίας</string>
+    <string name="DoctorRegister_Email">Email</string>
+    <string name="DoctorRegister_Password">Κωδικός πρόσβασης</string>
+    <string name="DoctorRegister_EyeIconVisibility">Εναλλαγή ορατότητας κωδικού</string>
+    <string name="DoctorRegister_Registerbtn">Εγγραφή</string>
+    <string name="DoctorRegister_ConfirmPassword">Επαλήθευση κωδικού πρόσβασης</string>
+    <string name="DoctorRegister_WeeklySchedule">Ωράριο Εργασίας ανά Ημέρα</string>
+    <string name="DoctorRegister_Monday">Δευτέρα</string>
+    <string name="DoctorRegister_Start">Έναρξη</string>
+    <string name="DoctorRegister_End">Λήξη</string>
+    <string name="DoctorRegister_Tuesday">Τρίτη</string>
+    <string name="DoctorRegister_Wednesday">Τετάρτη</string>
+    <string name="DoctorRegister_Thursday">Πέμπτη</string>
+    <string name="DoctorRegister_Friday">Παρασκευή</string>
+    <string name="DoctorRegister_Saturday">Σάββατο</string>
+    <string name="DoctorRegister_Sunday">Κυριακή</string>
+
+    <string name="LoginActivity_Title">Σύνδεση Χρήστη 👤</string>
+    <string name="LoginActivity_Email">Email</string>
+    <string name="LoginActivity_Password">Κωδικός πρόσβασης</string>
+    <string name="LoginActivity_EyeIconVisibility">Εναλλαγή ορατότητας κωδικού</string>
+    <string name="LoginActivity_ForgotPassword">Ξέχασες τον κωδικό πρόσβασης;</string>
+    <string name="LoginActivity_Loginbtn">Σύνδεση</string>
+
+    <string name="PatientNavMenu_Home">Αρχική</string>
+    <string name="PatientNavMenu_MedicalID">Ιατρικό ID</string>
+    <string name="PatientNavMenu_Visit">Επισκέψεις</string>
+    <string name="PatientNavMenu_History">Ιστορικό</string>
+    <string name="PatientNavMenu_Profile">Προφίλ</string>
+
+    <string name="PatientHomeFragment_Welcome">👋 Καλώς ήρθες, !</string>
+    <string name="PatientHomeFragment_MedicalID">Ιατρική Ταυτότητα</string>
+    <string name="PatientHomeFragment_History">Ιατρικό Ιστορικό</string>
+    <string name="PatientHomeFragment_Visits">Τα ραντεβού μου</string>
+    <string name="PatientHomeFragment_FAQ">Συχνές Ερωτήσεις</string>
+    <string name="PatientHomeFragment_getGreetingMessage_GoodMorning">🌅 Καλημέρα</string>
+    <string name="PatientHomeFragment_getGreetingMessage_GoodAfternnon">🌞 Καλό μεσημέρι</string>
+    <string name="PatientHomeFragment_getGreetingMessage_GoodEvening">🌇 Καλησπέρα</string>
+    <string name="PatientHomeFragment_getGreetingMessage_GoodNight">🌙 Καληνύχτα</string>
+    <string name="PatientHomeFragment_WelcomeText">Καλωσήρθες!</string>
+    <string name="PatientHomeFragment_Notifications">Ειδοποιήσεις</string>
+    <string name="PatientHomeFragment_Menu">Μενού</string>
+    <string name="PatientHomeFragment_UpcomingAppointmentsTitle">📅 Επόμενα Ραντεβού:</string>
+    <string name="PatientHomeFragment_UpcomingAppointments">Επόμενο Ραντεβού:</string>
+    <string name="PatientHomeFragment_CountDown">Απομένουν: 02 ημέρες 03:12:45</string>
+    <string name="PatientHomeFragment_MyPrescriptions">Οι Συνταγές μου</string>
+    <string name="PatientHomeFragment_BookAppointment">Κλείσε ραντεβού</string>
+    <string name="PatientHomeFragment_MyDoctors">Οι γιατροί μου</string>
+    <string name="PatientHomeFragment_SearchDoctor">Αναζήτηση ιατρών</string>
+
+    <string name="PatientHistoryFragment_Title">📋 Ιατρικό Ιστορικό</string>
+    <string name="PatientHistoryFragment_Surgeries">Χειρουργικές επεμβάσεις</string>
+    <string name="PatientHistoryFragment_Allergies">Αλλεργίες</string>
+    <string name="PatientHistoryFragment_Medications">Φαρμακευτική αγωγή</string>
+    <string name="PatientHistoryFragment_ChronicDiseases">Χρόνιες παθήσεις / νοσήματα</string>
+    <string name="PatientHistoryFragment_FamilyHistory">Οικογενειακό ιστορικό</string>
+    <string name="PatientHistoryFragment_Vaccinations">Εμβολιασμοί</string>
+    <string name="PatientHistoryFragment_Habits">Συνήθειες (κάπνισμα, αλκοόλ κλπ.)</string>
+    <string name="PatientHistoryFragment_Symptoms">Σημαντικά συμπτώματα</string>
+    <string name="PatientHistoryFragment_Editbtn">Επεξεργασία ✏️</string>
+    <string name="PatientHistoryFragment_Savebtn">Αποθήκευση 💾</string>
+
+    <string name="MedicalIDFragment_Title">🩺 Ιατρική Ταυτότητα</string>
+    <string name="MedicalIDFragment_UserInfo">Όνομα, Ηλικία</string>
+    <string name="MedicalIDFragment_BloodType">Ομάδα Αίματος</string>
+    <string name="MedicalIDFragment_Height">Ύψος (cm)</string>
+    <string name="MedicalIDFragment_Weight">Βάρος (kg)</string>
+    <string name="MedicalIDFragment_Allergies">Αλλεργίες</string>
+    <string name="MedicalIDFragment_Medications">Φαρμακευτική αγωγή</string>
+    <string name="MedicalIDFragment_ChronicDiseases">Χρόνιες Παθήσεις</string>
+    <string name="MedicalIDFragment_EmergencyContact1">Τηλ. Έκτακτης Ανάγκης 1</string>
+    <string name="MedicalIDFragment_EmergencyContact2">Τηλ. Έκτακτης Ανάγκης 2</string>
+    <string name="MedicalIDFragment_Relation1">Σχέση 1</string>
+    <string name="MedicalIDFragment_Relation2">Σχέση 2</string>
+    <string name="MedicalIDFragment_Editbtn">Επεξεργασία ✏️</string>
+    <string name="MedicalIDFragment_Savebtn">Αποθήκευση 💾</string>
+
+    <string name="PatientProfileFragment_Welcome">Καλώς ήρθες 👋</string>
+    <string name="PatientProfileFragment_FirstName">Όνομα</string>
+    <string name="PatientProfileFragment_LastName">Επώνυμο</string>
+    <string name="PatientProfileFragment_Email">Email</string>
+    <string name="PatientProfileFragment_AFM">ΑΦΜ</string>
+    <string name="PatientProfileFragment_AMKA">ΑΜΚΑ</string>
+    <string name="PatientProfileFragment_PhoneNumber">Τηλέφωνο Επικοινωνίας</string>
+    <string name="PatientProfileFragment_Address">Διεύθυνση</string>
+    <string name="PatientProfileFragment_Birthdate">Ημερομηνία Γέννησης</string>
+    <string name="PatientProfileFragment_Savebtn">Αποθήκευση 💾</string>
+    <string name="PatientProfileFragment_Editbtn">Επεξεργασία ✏️</string>
+    <string name="PatientProfileFragment_ChangePasswordbtn">Αλλαγή Κωδικού</string>
+    <string name="PatientProfileFragment_Logoutbtn">Αποσύνδεση</string>
+    <string name="PatientProfileFragment_DeleteAccbtn">Διαγραφή Λογαριασμού</string>
+
+    <string name="DoctorNavMenu_Home">Αρχική</string>
+    <string name="DoctorNavMenu_SearchPatients">Αναζήτηση Ασθενούς</string>
+    <string name="DoctorNavMenu_MyPatients">Οι ασθενείς μου</string>
+    <string name="DoctorNavMenu_Profile">Προφίλ</string>
+
+    <string name="DoctorHomeFragment_Welcome">👋 Καλωσήρθες, Ιατρέ!</string>
+    <string name="DoctorHomeFragment_Search">Αναζήτηση Ασθενούς</string>
+    <string name="DoctorHomeFragment_Settings">Το προφίλ μου</string>
+    <string name="DoctorHomeFragment_FAQ">Συχνές Ερωτήσεις</string>
+    <string name="DoctorHomeFragment_MyPatients">Οι Ασθενείς Μου</string>
+    <string name="DoctorHomeFragment_getGreetingMessage_GoodMorning">🌅 Καλημέρα</string>
+    <string name="DoctorHomeFragment_getGreetingMessage_GoodAfternoon">🌞 Καλό μεσημέρι</string>
+    <string name="DoctorHomeFragment_getGreetingMessage_GoodEvening">🌇 Καλησπέρα</string>
+    <string name="DoctorHomeFragment_getGreetingMessage_GoodNight">🌙 Καληνύχτα</string>
+    <string name="DoctorHomeFragment_Notifications">Ειδοποιήσεις</string>
+    <string name="DoctorHomeFragment_Menu">Μενού</string>
+    <string name="DoctorHomeFragment_UpcomingAppointmentsTitle">📅 Επόμενα Ραντεβού:</string>
+    <string name="DoctorHomeFragment_MyAppointments">Ημερολόγιο ραντεβού</string>
+
+    <string name="DoctorProfileFragment_Welcome">Καλώς ήρθες 👋</string>
+    <string name="DoctorProfileFragment_FullName">Ονοματεπώνυμο</string>
+    <string name="DoctorProfileFragment_Email">Email</string>
+    <string name="DoctorProfileFragment_ClinicHours">Ωράριο Λειτουργίας Ιατρείου</string>
+    <string name="DoctorProfileFragment_PhoneNumber">Τηλέφωνο Επικοινωνίας</string>
+    <string name="DoctorProfileFragment_Address">Διεύθυνση</string>
+    <string name="DoctorProfileFragment_Savebtn">Αποθήκευση 💾</string>
+    <string name="DoctorProfileFragment_Editbtn">Επεξεργασία ✏️</string>
+    <string name="DoctorProfileFragment_ChangePasswordbtn">Αλλαγή Κωδικού</string>
+    <string name="DoctorProfileFragment_Logoutbtn">Αποσύνδεση</string>
+    <string name="DoctorProfileFragment_DeleteAccbtn">Διαγραφή Λογαριασμού</string>
+    <string name="DoctorProfileFragment_WeeklySchedule">Ωράριο Εργασίας ανά Ημέρα</string>
+    <string name="DoctorProfileFragment_Monday">Δευτέρα</string>
+    <string name="DoctorProfileFragment_Start">Έναρξη</string>
+    <string name="DoctorProfileFragment_End">Λήξη</string>
+    <string name="DoctorProfileFragment_Tuesday">Τρίτη</string>
+    <string name="DoctorProfileFragment_Wednesday">Τετάρτη</string>
+    <string name="DoctorProfileFragment_Thursday">Πέμπτη</string>
+    <string name="DoctorProfileFragment_Friday">Παρασκευή</string>
+    <string name="DoctorProfileFragment_Saturday">Σάββατο</string>
+    <string name="DoctorProfileFragment_Sunday">Κυριακή</string>
+
+    <string name="SearchPatientFragment_Title">Αναζήτηση Ασθενούς με ΑΜΚΑ 🔎</string>
+    <string name="SearchPatientFragment_AMKA">Εισάγετε ΑΜΚΑ</string>
+    <string name="SearchPatientFragment_Searchbtn">Αναζήτηση</string>
+    <string name="SearchPatientFragment_FirstName">Όνομα:</string>
+    <string name="SearchPatientFragment_LastName">Επώνυμο:</string>
+    <string name="SearchPatientFragment_AFM">ΑΦΜ:</string>
+    <string name="SearchPatientFragment_PhoneNumber">Τηλέφωνο:</string>
+    <string name="SearchPatientFragment_Address">Διεύθυνση:</string>
+    <string name="SearchPatientFragment_Email">Email:</string>
+    <string name="SearchPatientFragment_AddVisitbtn">Καταγραφή Επίσκεψης</string>
+    <string name="SearchPatientFragment_AddPrescriptionbtn">💊 Συνταγογράφηση</string>
+
+    <string name="DoctorVisitFragment_Title">Καταγραφή Ιατρικής Επίσκεψης</string>
+    <string name="DoctorVisitFragment_DoctorName">Όνομα Ιατρού</string>
+    <string name="DoctorVisitFragment_VisitDate">Ημερομηνία επίσκεψης (π.χ. 03/08/2025)</string>
+    <string name="DoctorVisitFragment_AMKA">ΑΜΚΑ</string>
+    <string name="DoctorVisitFragment_Diagnosis">Διάγνωση</string>
+    <string name="DoctorVisitFragment_Notes">Σημειώσεις</string>
+    <string name="DoctorVisitFragment_NextAppointment">Επόμενο Ραντεβού (π.χ. 10/08/2025)</string>
+    <string name="DoctorVisitFragment_Savebtn">Αποθήκευση Επίσκεψης</string>
+    <string name="DoctorVisitFragment_DoctorSpecialty">Ειδικότητα</string>
+    <string name="DoctorVisitFragment_NextAppointmentTime">\'Ώρα επόμενου ραντεβού (π.χ. 14:30)</string>
+
+    <string name="item_visit_xml_VisitDate">Ημερομηνία</string>
+    <string name="item_visit_xml_VisitDoctorName">Ιατρός</string>
+    <string name="item_visit_xml_VisitDoctorSpecialty">Ειδικότητα</string>
+    <string name="item_visit_xml_VisitDiagnosis">Διάγνωση</string>
+    <string name="item_visit_xml_VisitNotes">Σημειώσεις</string>
+    <string name="item_visit_xml_VisitNextAppointment">Επόμενο ραντεβού</string>
+
+    <string name="PatientVisitFragment_FilterDate">Ημερομηνία</string>
+    <string name="PatientVisitFragment_Clearbtn">Clear</string>
+    <string name="PatientVisitFragment_Title">Οι Επισκέψεις μου</string>
+    <string name="PatientVisitFragment_ClearFilterDate">Καθαρισμός</string>
+
+    <string name="AboutUs_AppLogo">App Logo</string>
+    <string name="AboutUs_Title">eHealth</string>
+    <string name="AboutUs_Description">Η εφαρμογή eHealth έχει σχεδιαστεί για να διευκολύνει τη διαχείριση ιατρικών δεδομένων, επικοινωνίας με γιατρούς και διατήρησης ιστορικού ασθενούς.</string>
+    <string name="AboutUs_btnSubmitTicket">Υποβολή Αιτήματος</string>
+    <string name="AboutUs_Footer1">© 2025 eHealth |</string>
+    <string name="AboutUs_Footer2">Aikaterini Maria Drosou</string>
+
+    <string name="popup_notifications_AllNotifications">Δες όλες τις ειδοποιήσεις</string>
+
+    <string name="BookAppointmentFragment_Title">Επιλογή ραντεβού 📆</string>
+    <string name="BookAppointmentFragment_SelectDoctor">Επιλογή γιατρού:</string>
+    <string name="BookAppointmentFragment_SelectDate">Επιλέξτε ημερομηνία:</string>
+    <string name="BookAppointmentFragment_SelectDatebtn">Ημερομηνία</string>
+    <string name="BookAppointmentFragment_TimeSlots">Διαθέσιμες ώρες:</string>
+    <string name="BookAppointmentFragment_BookAppointmentbtn">Κλείσε ραντεβού</string>
+
+    <string name="DoctorVisitDetailsFragment_Title">Επισκέψεις σε ιατρό</string>
+    <string name="DoctorVisitDetailsFragment_NoVisits">Δεν υπάρχουν επισκέψεις.</string>
+
+    <string name="MyAppointmentsFragment_Title">Τα ραντεβού μου</string>
+    <string name="MyAppointmentsFragment_NoAppointments">Δεν έχετε προγραμματισμένα ραντεβού.</string>
+    <string name="MyAppointmentsFragment_NoAppointments2">Κλείστε ένα νέο ραντεβού από την επιλογή «Κλείσε ραντεβού».</string>
+    <string name="MyAppointmentsFragment_PastVisitsbtn">Προηγούμενες επισκέψεις</string>
+
+    <string name="MyDoctorsFragment_Title">Οι Γιατροί μου 🧑‍⚕️</string>
+    <string name="MyDoctorsFragment_FilterSpecialty">Φίλτρο ειδικότητας:</string>
+
+    <string name="NotificationsFragment_Title">🔔 Ειδοποιήσεις</string>
+
+    <string name="PastVisitsFragment_Title">Προηγούμενες επισκέψεις 🩺</string>
+    <string name="PastVisitsFragment_NoPastVisits">Δεν υπάρχουν καταγεγραμμένες επισκέψεις.</string>
+
+    <string name="PrescriptionDetailsFragment_ExportPDFbtn">📄 Εξαγωγή σε PDF</string>
+
+    <string name="SearcDoctorFragment_Title">Όλοι οι Ιατροί 🩺</string>
+    <string name="SearcDoctorFragment_OpenMapbtn">Προβολή σε Χάρτη 🗺️</string>
+    <string name="SearcDoctorFragment_NoDoctors">Κενή λίστα</string>
+
+    <string name="DoctorScheduleFragment_WelcomeText">Ημερολόγιο με ραντεβού 📆</string>
+    <string name="DoctorScheduleFragment_SelectedDateTitle">📅 Ημερομηνία</string>
+    <string name="DoctorScheduleFragment_SelectedDatebtn">Επιλογή ημερομηνίας</string>
+
+    <string name="MyPatientsFragment_Title">Αναζήτηση Ασθενών</string>
+
+    <string name="NewPrescriptionFragment_Title">Συνταγογράφηση Φαρμάκων</string>
+    <string name="NewPrescriptionFragment_DoctorTitle">Ιατρός</string>
+    <string name="NewPrescriptionFragment_SpecialtyTitle">Ειδικότητα</string>
+    <string name="NewPrescriptionFragment_DateTitle">Ημερομηνία Συνταγογράφησης</string>
+    <string name="NewPrescriptionFragment_AMKATitle">ΑΜΚΑ Ασθενή</string>
+    <string name="NewPrescriptionFragment_MedTitle">Φάρμακα</string>
+    <string name="NewPrescriptionFragment_AddMedbtn">➕ Προσθήκη Φαρμάκου</string>
+    <string name="NewPrescriptionFragment_NotesTitle">Σχόλια / Παρατηρήσεις</string>
+    <string name="NewPrescriptionFragment_Savebtn">💾 Αποθήκευση Συνταγής</string>
+
+    <string name="PatientDetailsFragment_Title">Ιστορικό Επισκέψεων</string>
+    <string name="PatientDetailsFragment_FilterTitle">🔍 Φίλτρα αναζήτησης</string>
+    <string name="PatientDetailsFragment_SpecialtyTitle">Ειδικότητα</string>
+    <string name="PatientDetailsFragment_DateTitle">Ημερομηνία</string>
+    <string name="PatientDetailsFragment_NoVisits">Δεν υπάρχουν καταγεγραμμένες επισκέψεις.</string>
+
+    <string name="AdminDashboardActivity_Title">Πίνακας Διαχειριστή</string>
+    <string name="AdminDashboardActivity_Filter">Φίλτρο:</string>
+    <string name="AdminDashboardActivity_Logoutbtn">Αποσύνδεση</string>
+</resources>
